@@ -2,7 +2,13 @@ ul {
   list-style: none;
 }
 
+li {
+  display: block;
+}
+
 a {
+  display: block;
+  font-family: inherit;
   text-decoration: none;
 }
 
