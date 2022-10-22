@@ -9,12 +9,16 @@
   &--header {
     margin-right: 93px;
   }
+
+  &--footer {
+    margin-bottom: 20px;
+  }
 }
 
-.page-header__logo {
+.logo__page-header {
   color: $color-txt-alternative-invers;
 }
 
-.page-footer__logo {
+.logo__page-footer {
   color: $color-txt-alternative;
 }

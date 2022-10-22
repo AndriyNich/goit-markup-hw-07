@@ -54,4 +54,15 @@
   border-radius: $btn-radius;
   background-color: $color-accent;
   box-shadow: $btn-shadow-hero;
+
+  cursor: pointer;
+
+  transition: color $time-transition $cubic,
+    background-color $time-transition $cubic;
+
+  &:hover,
+  &:focus {
+    color: $color-txt-title;
+    background-color: $bg-color-btn;
+  }
 }

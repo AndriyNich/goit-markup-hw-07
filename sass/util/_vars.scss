@@ -12,8 +12,11 @@ $bg-color-hero: #c4c4c4;
 $bg-color-footer: #2f303a;
 $bg-color-team: #f5f4fa;
 
+$bg-color-social-icon: #afb1b8;
+
 $bg-gradient-hero: rgba(47, 48, 58, 0.4);
 //$bg-gradient-hero: rgba(85, 86, 102, 0.4);
+$bg-remark-color: rgba(47, 48, 58, 0.8);
 
 $gap-carts: 30px;
 
@@ -29,12 +32,12 @@ $btn-shadow-hero: 0px 4px 4px rgba(0, 0, 0, 0.15);
 $shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
 
-//--team-radius: 0px 0px 4px 4px;
+$br-radius-team: 0px 0px 4px 4px;
 
 //--card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 //  1px 4px 6px rgba(0, 0, 0, 0.16);
 
-//--start-svg-color: #afb1b8;
+
 
 $time-transition: 250ms;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
