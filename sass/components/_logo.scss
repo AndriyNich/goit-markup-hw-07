@@ -15,10 +15,12 @@
   }
 }
 
-.logo__page-header {
-  color: $color-txt-alternative-invers;
-}
+.logo__span {
+  &--header {
+    color: $color-txt-alternative-invers;
+  }
 
-.logo__page-footer {
-  color: $color-txt-alternative;
+  &--footer {
+    color: $color-txt-alternative;
+  }
 }

@@ -1,0 +1,26 @@
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap-carts;
+}
+
+.portfolio__item {
+  width: calc((100% - 2 * $gap-carts) / 3);
+}
+
+.portfolio__link {
+}
+.portfolio__thumb {
+}
+.portfolio__img {
+}
+.portfolio__overlay {
+}
+.portfolio__text {
+}
+.portfolio__box {
+}
+.portfolio__caption {
+}
+.portfolio__type {
+}

@@ -14,7 +14,14 @@
   height: 44px;
 
   color: $bg-color-social-icon;
-  background-color: $color-txt-alternative;
+
+  &--standart {
+    background-color: $color-txt-alternative;
+  }
+
+  &--footer {
+    background-color: $bg-color-social-icon-footer;
+  }
 
   border-radius: 50%;
 

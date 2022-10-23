@@ -1,0 +1,43 @@
+.filter__list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+  &--portfolio {
+    margin-bottom: 50px;
+  }
+}
+
+.filter__item {
+}
+
+.filter__btn {
+  min-width: 73px;
+  padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $color-txt-title;
+
+  background-color: $bg-color-btn;
+
+  border: none;
+  box-shadow: none;
+  border-radius: $btn-radius;
+  cursor: pointer;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: $time-transition;
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &focus {
+    color: $color-txt-alternative;
+    box-shadow: $btn-shadow;
+    background-color: $color-accent;
+  }
+}
