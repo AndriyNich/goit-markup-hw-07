@@ -12,24 +12,24 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: $color-txt-alternative;
 
-  background-color: #2196f3;
+  background-color: $color-accent;
 
   border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: $btn-radius;
+  box-shadow: $btn-shadow-hero;
 
   cursor: pointer;
 
   transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: $time-transition;
+  transition-timing-function: $cubic;
 
   &:hover,
   &:focus {
-    background-color: #188ce8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: $bg-color-btn-alternative;
+    box-shadow: $btn-shadow-hero;
   }
 }
 
@@ -44,17 +44,16 @@
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $color-txt-title;
 
-  background-color: #f5f4fa;
+  background-color: $bg-color-btn;
 
   box-shadow: none;
 
   &:hover,
   &:focus {
-    background-color: #2196f3;
-    color: #ffffff;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+    background-color: $color-accent;
+    color: $color-txt-alternative;
+    box-shadow: $btn-shadow;
   }
 }
