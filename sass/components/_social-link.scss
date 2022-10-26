@@ -13,13 +13,13 @@
   width: 44px;
   height: 44px;
 
-  color: $bg-color-social-icon;
-
   &--standart {
+    color: $bg-color-social-icon;
     background-color: $color-txt-alternative;
   }
 
   &--footer {
+    color: $color-txt-alternative;
     background-color: $bg-color-social-icon-footer;
   }
 

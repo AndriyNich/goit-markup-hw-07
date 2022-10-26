@@ -262,30 +262,3 @@
 
   color: $color-accent;
 }
-
-.modal__submit {
-  display: block;
-  padding: 10px;
-  margin: 0 auto;
-  min-width: 200px;
-  height: 50px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  color: $color-txt-alternative;
-  letter-spacing: 0.06em;
-
-  background-color: $color-accent;
-  box-shadow: $btn-shadow-hero;
-  border: none;
-  border-radius: $btn-radius;
-  cursor: pointer;
-
-  transition: background-color $time-transition $cubic;
-
-  &:hover,
-  &focus {
-    background-color: $bg-color-btn-alternative;
-  }
-}
